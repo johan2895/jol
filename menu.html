@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabor Costeño - Menú</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body class="menu-bg"> <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="Logo Sabor Costeño" height="30" class="d-inline-block align-top mr-2">
+            Sabor Costeño
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light active" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <button id="cambiarColorBtn" class="btn btn-outline-light ml-2 btn-sm">Cambiar Color</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-5 pt-5">
+        <section class="text-center mb-5">
+            <h2 class="text-white display-4 font-weight-bold menu-title">Nuestros Sabores</h2>
+            <p class="lead text-white menu-subtitle">Explora nuestras deliciosas opciones</p>
+        </section>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="img/comida-rapida.png" class="card-img-top" alt="Comida Rápida">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center font-weight-bold">Menú Rápido</h5>
+                        <p class="card-text text-muted small">Para esos antojos que no pueden esperar.</p>
+                        <ul class="list-group list-group-flush mt-auto">
+                            <li class="list-group-item"><strong>Hamburguesa Costeña:</strong> Carne de res, queso costeño, lechuga, tomate, suero atollabuey y papitas.</li>
+                            <li class="list-group-item"><strong>Perro Caliente Especial:</strong> Salchicha premium, queso mozzarella, tocineta, cebolla grille, papitas y salsa tártara.</li>
+                            <li class="list-group-item"><strong>Salchipapa Caribeña:</strong> Papa criolla, papa francesa, salchicha ranchera, chorizo, butifarra, queso costeño rallado y salsa rosada.</li>
+                             <li class="list-group-item"><strong>Patacón con Todo:</strong> Patacón pisao gigante con carne desmechada, pollo, queso costeño, lechuga y salsas.</li>
+                        </ul>
+                            <a href="#" class="btn btn-warning btn-block mt-3">¿Qué te apetece?</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="img/comida-criolla.png" class="card-img-top" alt="Comida Criolla">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center font-weight-bold">Sabor Criollo</h5>
+                        <p class="card-text text-muted small">Los clásicos de la cocina tradicional.</p>
+                        <ul class="list-group list-group-flush mt-auto">
+                            <li class="list-group-item"><strong>Arroz de Lisa:</strong> Arroz cocido con lisa seca desmechada, verduras y el toque secreto de la casa.</li>
+                            <li class="list-group-item"><strong>Sancocho de Guandú:</strong> Con carne salada, yuca, ñame, plátano maduro y el inconfundible sabor del guandú fresco.</li>
+                            <li class="list-group-item"><strong>Mojarra Frita:</strong> Acompañada de arroz con coco, patacones crocantes y ensalada fresca.</li>
+                            <li class="list-group-item"><strong>Posta Cartagenera:</strong> Corte de res tierno en salsa oscura dulce, acompañado de arroz blanco y plátano en tentación.</li>
+                        </ul>
+                         <a href="#" class="btn btn-success btn-block mt-3">¡haz tu orden ahora!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="img/comida-gourmet.jpg" class="card-img-top" alt="Comida Gourmet">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center font-weight-bold">Toque Gourmet</h5>
+                         <p class="card-text text-muted small">Innovación y sabor en cada bocado.</p>
+                        <ul class="list-group list-group-flush mt-auto">
+                            <li class="list-group-item"><strong>Ceviche de Corozo:</strong> Pesca blanca marinada en leche de tigre de corozo, con cebolla roja, cilantro y chips de plátano verde.</li>
+                            <li class="list-group-item"><strong>Risotto de Camarón al Coco:</strong> Cremoso risotto arborio con camarones salteados, leche de coco y un toque de ají dulce.</li>
+                            <li class="list-group-item"><strong>Lomo en Costra de Café:</strong> Medallón de lomo fino con costra de café colombiano, puré de ñame y reducción de vino tinto.</li>
+                            <li class="list-group-item"><strong>Mousse de Zapote:</strong> Suave y aireado mousse con el sabor exótico del zapote costeño y crocante de galleta.</li>
+                        </ul>
+                         <a href="#" class="btn btn-info btn-block mt-3">"Antójate y ordénalo al instante."</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5 fixed-bottom"> <p>&copy; 2025 Restaurante Sabor Costeño.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>

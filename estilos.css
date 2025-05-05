@@ -1,0 +1,111 @@
+body {
+    padding-top: 56px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.inicio-bg {
+    background: url('img/inicioFondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header-inicio {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.header-content {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.menu-bg {
+    background: url('img/menuFondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.menu-title, .menu-subtitle {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#pagina-contacto {
+    background-color: #ffffff !important;
+    color: #343a40 !important;
+}
+
+#pagina-contacto .contact-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#pagina-contacto label {
+    color: #343a40;
+    transition: color 0.5s ease;
+}
+
+#pagina-contacto .form-control {
+    background-color: #ffffff;
+    color: #495057;
+}
+
+#pagina-contacto footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#pagina-contacto main {
+    margin-bottom: 100px;
+}
+
+#pagina-contacto.bg-theme-blue { --form-bg: #004085; --form-text: #ffffff; --form-input-text: #004085; }
+#pagina-contacto.bg-theme-green { --form-bg: #155724; --form-text: #ffffff; --form-input-text: #155724; }
+#pagina-contacto.bg-theme-warning { --form-bg: #ffc107; --form-text: #212529; --form-input-text: #212529; }
+#pagina-contacto.bg-theme-purple { --form-bg: #800080; --form-text: #ffffff; --form-input-text: #800080; }
+#pagina-contacto.bg-theme-orange { --form-bg: #ff8c00; --form-text: #212529; --form-input-text: #212529; }
+#pagina-contacto.bg-theme-gray { --form-bg: #6c757d; --form-text: #ffffff; --form-input-text: #6c757d; }
+#pagina-contacto.bg-theme-red { --form-bg: #dc3545; --form-text: #ffffff; --form-input-text: #dc3545; }
+#pagina-contacto.bg-theme-dark-blue { --form-bg: #002752; --form-text: #ffffff; --form-input-text: #002752; }
+#pagina-contacto.bg-theme-dark-green { --form-bg: #0b3011; --form-text: #ffffff; --form-input-text: #0b3011; }
+#pagina-contacto.bg-theme-pink { --form-bg: #FF69B4; --form-text: #ffffff; --form-input-text: #FF69B4; }
+#pagina-contacto.bg-theme-teal { --form-bg: #008080; --form-text: #ffffff; --form-input-text: #008080; }
+#pagina-contacto.bg-theme-light-blue { --form-bg: #add8e6; --form-text: #000000; --form-input-text: #000000; }
+
+#pagina-contacto .contact-section {
+    background-color: var(--form-bg);
+    color: var(--form-text);
+}
+
+#pagina-contacto label {
+    color: var(--form-text);
+}
+
+#pagina-contacto .form-control {
+    color: var(--form-input-text);
+    background-color: #ffffff;
+}
+
+.imagen-icono-seccion {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

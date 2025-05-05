@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabor Costeño - Contacto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body id="pagina-contacto" class="bg-light text-dark"> <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="Logo Sabor Costeño" height="30" class="d-inline-block align-top mr-2">
+            Sabor Costeño
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link btn btn-sm btn-outline-light active" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <button id="cambiarColorBtn" class="btn btn-outline-light ml-2 btn-sm">Cambiar Color</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-5 pt-5">
+        <section class="p-4 rounded shadow contact-section"> <h2 class="text-center mb-4">Contáctanos</h2>
+            <p class="text-center mb-4">¿Tienes preguntas, sugerencias o deseas hacer una reserva? Completa el formulario y te responderemos pronto.</p>
+            <form class="mt-4" id="formularioContacto">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                </div>
+                 <div class="form-group">
+                    <label for="telefono">Teléfono (Opcional)</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Tu número de teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe aquí tu consulta o mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                <div id="mensajeRespuesta" class="mt-3"></div> </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5 fixed-bottom"> <p>&copy; 2025 Restaurante Sabor Costeño.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
